@@ -1,0 +1,23 @@
+*{
+	box-sizing:border-box;
+}
+
+
+
+#mytable{
+	width:50%;
+	margin:50px auto;
+	border-collapse:collapse;
+}
+
+table,td{
+	border:1px solid black;
+}
+td{
+	padding:10px;
+}
+
+td[colspan]{
+	font-weight:bold;
+	text-align:center;
+}
